@@ -18,7 +18,7 @@ $(document).ready(function() {
        	infiniteCounter == 0 
        } else if (hiddenCounter == 20 && hiddenCounter < 999) {
        		hiddenCounter = 0;
-       		alert(message[Math.floor(Math.random()*8)]);
+       		alert(message[Math.floor(Math.random()*7)]);
        }
    });
 
