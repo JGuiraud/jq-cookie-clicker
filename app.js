@@ -13,7 +13,6 @@ $(document).ready(function() {
        if (infiniteCounter == 20) {
            alert("N'as-tu rien d'autre à faire ??");
            hiddenCounter = 0;
-           console.log(hiddenCounter); 
        } if (infiniteCounter == 999 ) {
        	alert ("Bravo ! Tu as gagné un gateau. Maintenant tu peux recommencer ! Y aura-t-il une autre surprise ? A toi de le vérifier.")
        	infiniteCounter == 0 
